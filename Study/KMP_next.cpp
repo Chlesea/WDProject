@@ -26,3 +26,4 @@ int main() {
     int next[T.size()];
     get_next(T, next);
 }
+//
