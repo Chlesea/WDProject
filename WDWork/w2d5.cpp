@@ -13,5 +13,5 @@ int main() {
     cin >> i >> j >> k;
     cout << setiosflags(ios::fixed) << setprecision(2);
     cout << i + j + k;
-    //
+
 }
