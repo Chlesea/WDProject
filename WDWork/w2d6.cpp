@@ -10,7 +10,8 @@ int main() {
     using namespace std;
     string s1, s2;
     cin >> s1;
-    s2.assign(s1, s1.size());
+    s2.assign(s1);
+    cout << s2;
     reverse(s1.begin(), s1.end());
     if (s1 == s2)
         cout << "yes";
